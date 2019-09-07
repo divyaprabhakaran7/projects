@@ -30,7 +30,7 @@ workbook = xlsxwriter.Workbook('DataAnalysis.xlsx')
 # Workbook object adds a new worksheet
 worksheet = workbook.add_worksheet()
 
-# Use worksheet object to write data intot the new Excel spreadsheet
+# Use worksheet object to write data into the new Excel spreadsheet
 worksheet.write('A1', 'v1v2')
 worksheet.write('B1', 'Cut Type')
 worksheet.write('C1', 'Pre Mean Diff')
